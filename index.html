@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatísticas Flamengo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Plantel do Flamengo</h1>
+        <h2><img src="imagens/crf.png" alt="Logo Flamengo"></h2>
+    </header>
+    <section>
+        <div>
+            <p>
+                <label for="jogadores">Escolha um jogador</label>
+                <select name="jogadores" id="jogadores" size="1">
+                    <option value="none" selected>- - - Jogador - - -</option>
+                    <option value="none">- - - GOLEIROS - - -</option>
+                    <option value="santos">Santos</option>
+                    <option value="hugo">Hugo Souza</option>
+                    <option value="matheus">Matheus Cunha</option>
+                    <option value="none">- - - ZAGUEIROS - - -</option>
+                    <option value="david">David Luiz</option>
+                    <option value="leo">Léo Pereira</option>
+                    <option value="rodrigo">Rodrigo Caio</option>
+                    <option value="pablo">Pablo</option>
+                    <option value="fabricio">Fabrício Bruno</option>
+                    <option value="cleiton">Cleiton</option>
+                    <option value="noga">Gabriel Noga</option>
+                    <option value="none">- - - LATERAIS - - -</option>
+                    <option value="matheuzinho">Matheuzinho</option>
+                    <option value="varela">Guillermo Varela</option>
+                    <option value="filipe">Filipe Luís</option>
+                    <option value="ayrton">Ayrton Lucas</option>
+                    <option value="none">- - - VOLANTES - - -</option>>
+                    <option value="vidal">Vidal</option>
+                    <option value="thiago">Thiago Maia</option>
+                    <option value="pulgar">Erick Pulgar</option>
+                    <option value="gerson">Gerson</option>
+                    <option value="none">- - - MEIAS - - -</option>
+                    <option value="everton">Everton Ribeiro</option>
+                    <option value="arrascaeta">Arrascaeta</option>
+                    <option value="victor">Victor Hugo</option>
+                    <option value="frança">Matheus França</option>
+                    <option value="none">- - - ATACANTES - - -</option>
+                    <option value="gabi">Gabi</option>
+                    <option value="pedro">Pedro</option>
+                    <option value="cebola">Everton Cebolinha</option>
+                    <option value="marinho">Marinho</option>
+                    <option value="bruno">Bruno Henrique</option>
+                </select>
+                <input type="button" value="Escolher" onclick="escolher()">
+            </p>
+        </div>
+        <div id="res">
+            <p>
+                Jogador Selecionado:
+                <img id="foto" src="#" alt="">
+                <p id="nome"></p>
+                <p id="idade"></p>
+                <p id="camisa"></p>
+                <p id="posicao"></p>
+            </p>
+        </div>
+    </section>
+    <p><legend>*Elenco atualizado até o dia 05/02/2023*</legend></p>
+    <footer>
+        <p>&copy;AdrianoPraia</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
