@@ -170,7 +170,7 @@ function escolher() {
     } else if (value == 'victor') {
         img.style.display = 'block'
         img.src = 'imagens/victor.jpg'
-        nome.innerHTML = 'VICTOR HUGO GOMES SILVAO'
+        nome.innerHTML = 'VICTOR HUGO GOMES SILVA'
         idade.innerHTML = 'Idade: 18 anos'
         camisa.innerHTML = 'Manto N°29'
         posicao.innerHTML = 'Meia'
